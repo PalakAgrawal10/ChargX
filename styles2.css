@@ -1,0 +1,798 @@
+.bg{
+  background-image: url("green3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+}
+.icon{
+  width: 200%;
+}
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+
+  color: #433520;
+}
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: #433520;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #290001;
+  font-weight: 500;
+}
+p{
+  color: #8f8f8f;
+   font-weight: 500;
+   font-size: 1.10rem;
+}
+a{
+  color: #8f8f8f;
+}
+a:hover{
+  color: #f57b51;
+  text-decoration: none;
+}
+hr{
+  border-color: #dfe0df;
+}
+.container-fluid{
+  padding: 7% 12% 7% 12%;
+}
+.navbar{
+  padding: 0.75% 12%;
+}
+.x{
+  background-color: inherit;
+}
+.navbar-brand{
+  font-family: 'Cuprum';
+  font-size: 3rem;
+  font-weight: normal;
+}
+.nav-item{
+  padding-left: 1.51rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.navbar-light .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,0.5);
+}
+.title-text{
+  padding-bottom: 7%;
+}
+.boxed {
+  background-color: inherit;
+  padding: 12px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+.get-started {
+  margin: 5% 3% 5% 0;
+  color: white;
+  background-color: #290001;
+  font-weight: 500;
+}
+.get-started:hover{
+  background-color: inherit;
+  color: #290001;
+}
+#features{
+  padding: 7% 12%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: left;
+  padding: 4%;
+}
+.quote-icon {
+  color: #433520;
+  margin-bottom: 1rem;
+}
+.quote-icon:hover{
+  color: #290001;
+}
+#testimonials{
+  text-align: center;
+  background-color: #433520;
+  color: #fff;
+}
+.car{
+  width: 45%;
+  border-radius: 50%;
+  margin: 20px;
+}
+.car:hover{
+  opacity: 0.75;
+}
+.carousel-item{
+  padding: 5% 12% 5% 12%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+li a:hover {
+  color: inherit;
+}
+#Video{
+  text-align: center;
+  padding: 5% 12%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.vid{
+  width: 85%;
+  height: 100%;
+  background-color: white;
+}
+#invest{
+  background-color: #433520;
+}
+#gold{
+  background-color: #433520;
+}
+#white{
+
+}
+.about-text1{
+  margin-top: 3%;
+  padding-right: 8%;
+}
+.gold {
+  border-radius: 100%;
+  width: 75%;
+  float: left;
+  margin-right: 5%;
+}
+.img:hover{
+  opacity: 0.75;
+}
+.about-text2{
+  margin-top: 3%;
+}
+.invest{
+  border-radius: 100%;
+  width: 105%;
+  float: right;
+  padding: 3% 0 0 6%;
+}
+.about-text3{
+  padding-right: 8%;
+  margin-top: 3%;
+}
+.RE{
+  border-radius: 100%;
+  width: 90%;
+  height: 105%;
+  float: left;
+
+}
+.about-text4{
+  margin-top: 8%;
+}
+.savings{
+  width: 75%;
+  float: left;
+}
+#footer{
+  background-color: #290001;
+  padding: 6% 12%;
+  text-align: center;
+}
+.social-icon {
+  padding: 2% 1%;
+  color: #dfe0df;
+}
+.social-icon:hover{
+  color: #f57b51;
+}
+.cash{
+  text-align: left;
+}
+.end-section{
+  text-align: left;
+}
+.end{
+  font-size: 0.80rem;
+  color: #dfe0df;
+}
+.end1{
+  font-size: 0.95rem;
+  color: #dfe0df;
+}
+.end-link{
+  text-decoration: underline;
+  color: #dfe0df;
+}
+.end-link1{
+  text-decoration: none;
+  color: #dfe0df;
+}
+.end-link:hover .end-link1:hover{
+  color: #8f8f8f;
+}
+.nl{
+
+}
+.submit-1{
+  background-color: white;
+  color: #290001;
+  margin: 0 25%;
+  border: 1%;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 1% 3%;
+  font-size: 1.5rem;
+}
+#copyright{
+  background-color: #290001;
+  padding: 2% 12%;
+  text-align: center;
+}
+/* Contact Page */
+.contact-nav{
+  padding: 3% 12%;
+}
+#contact{
+  background-image: url("money-contact4.jpg");
+  opacity: 0.8;
+  background-color: #433520;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+  padding: 15% 12% 0.1% 12%;
+}
+.title-contact-text{
+  text-align: center;
+  color: #290001;
+  padding: 1% 12% 0% 12%;
+  font-size: 3.555rem;
+}
+#contact-form{
+  padding: 7% 12%;
+}
+*{box-sizing: border-box;}
+
+input[type=text], input[type=tel], select, textarea {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ resize: vertical;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=password]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=date]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+ padding: 12px 12px 12px 0;
+ display: inline-block;
+}
+.form-check-input{
+  float: right;
+}
+.submit {
+ background-color: #290001;
+ color: white;
+ margin-left: 26%;
+ border: 1%;
+ border-radius: 0.6rem;
+ cursor: pointer;
+ padding: 1% 3%;
+ font-size: 1.25rem;
+}
+
+.submit:hover {
+ background-color: #433520;
+ color: white;
+}
+.submit-1:hover {
+ background-color: #f57b51;
+ color: white;
+}
+
+.col-25 {
+ float: left;
+ width: 25%;
+ margin-top: 6px;
+}
+
+.col-75 {
+ float: left;
+ width: 75%;
+ margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .col-25, .col-75, input[type=submit] {
+   width: 100%;
+   margin-top: 0;
+ }
+}
+
+/* signup */
+#signup{
+  padding: 5% 29% 1% 29%;
+}
+.signup-text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: left;
+}
+.sign-text{
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: left;
+}
+.signup-text1{
+  text-align: left;
+}
+#signup-form{
+  padding: 0% 29% 2% 29%;
+}
+
+.col-25-1 {
+ float: left;
+ width: 25%;
+ margin-top: 6px;
+}
+
+.col-75-1 {
+ float: left;
+ width: 60%;
+ margin-top: 6px;
+}
+.signup-link{
+  color: #f57b51;
+  text-decoration: none;
+}
+.signup-link:hover{
+  color: #433520;
+  text-decoration: underline;
+  text-decoration-color: #433520;
+}
+.NewCustomer{
+  color: #433520;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1.5% 0 0 27%;
+}
+
+/* Invest */
+#invest-title{
+    background-image: url("stock2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+.invest-title-text{
+  padding: 0.5% 0 12% 1%;
+}
+.vid1{
+  width: 35%;
+  height: auto;
+  background-color: white;
+}
+.invest-btn{
+  margin: 5% 3% 5% 0;
+  color: #e8e8e8;
+  background-color: #0f3057;
+  font-weight: 500;
+}
+.invest-btn:hover{
+  background-color: #a7c5eb;
+  color: #0f3057;
+}
+.invest-2{
+  color: #e8e8e8;
+}
+.invest-section-2{
+  width: 90%;
+  height: auto;
+  float: left;
+  border-radius: 20%;
+}
+.invest-feature-box-1{
+  padding: 9.5% 4%;
+}
+#invest-3{
+  padding: 7% 12%;
+  background-color: #00587a;
+}
+.invest-section-3{
+  width: 120%;
+  height: auto;
+  border-radius: 20%;
+}
+.invest-section-3:hover{
+  opacity: 0.75;
+}
+.invest-section-4{
+
+}
+.invest-last-btn{
+  margin: 2% 3% 2% 0;
+  color: #e8e8e8;
+  background-color: #0f3057;
+  font-weight: 500;
+}
+.invest-last-btn:hover{
+  background-color: #00587a;
+  color: white;
+}
+.invest-section-6{
+  width: 100%;
+  height: auto;
+  border-radius: 20%;
+}
+.invest-section-6:hover{
+  opacity: 0.75;
+}
+
+/* Gold */
+#gold-title{
+    background-image: url("gold7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+.gold-title-text{
+  padding: 0 0 10% 1%;
+}
+.gold-btn {
+  margin: 5% 3% 5% 0;
+  color: #290001;
+  background-color: gold;
+  font-weight: 500;
+}
+.gold-btn:hover{
+  background-color: #cf7500;
+  color: white;
+}
+.gold-section-2{
+  width: 100%;
+  height: auto;
+  float: left;
+  border-radius: 10%;
+}
+.gold-section-2:hover{
+  opacity: 0.85;
+}
+.gold-feature-box-1{
+  padding: 7% 4%;
+}
+#gold-3{
+  padding: 7% 12%;
+  background-color: #ffc60b;
+}
+.gold-section-3{
+  width: 120%;
+  height: auto;
+  border-radius: 20%;
+}
+.gold-section-3:hover{
+  opacity: 0.55;
+}
+.gold-section-4{
+
+}
+.gold-last-btn{
+  margin: 2% 3% 2% 0;
+  color: #290001;
+  background-color: gold;
+  font-weight: 500;
+}
+.gold-last-btn:hover{
+  background-color: #cf7500;
+  color: white;
+}
+
+/* Real Estate */
+#RE-title{
+    background-image: url("RE2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 120% 150%;
+}
+.RE-title-text{
+  padding: 0 0 10% 1%;
+}
+.RE-btn {
+  margin: 5% 3% 5% 0;
+  color: #e8e8e8;
+  background-color: #364F56;
+  font-weight: 500;
+}
+.RE-btn:hover{
+  background-color: #a7c5eb;
+  color: #0f3057;
+}
+.RE-section-2{
+  width: 100%;
+  height: auto;
+  float: left;
+  border-radius: 10%;
+}
+.RE-section-2:hover{
+  opacity: 0.85;
+}
+.RE-feature-box-1{
+  padding: 7% 4%;
+}
+#RE-3{
+  padding: 7% 12%;
+  background-color: #364F56;
+}
+.RE-section-3{
+  width: 110%;
+  height: auto;
+  border-radius: 20%;
+}
+.RE-section-3:hover{
+  opacity: 0.75;
+}
+.RE-text{
+  padding-top: 9%;
+}
+.RE-last-btn{
+  margin: 2% 3% 2% 0;
+  color: #e8e8e8;
+  background-color: #2C4047;
+  font-weight: 500;
+}
+.RE-last-btn:hover{
+  background-color: #364F56;
+  color: white;
+}
+.RE-feature-box{
+  text-align: center;
+  padding: 4%;
+}
+.RE-icon {
+  width: 40%;
+  margin-bottom: 1rem;
+  color: #2D5871;
+}
+.RE-icon:hover{
+  opacity: 0.8;
+}
+
+/* Invest */
+#save-title{
+    background-image: url("save.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+.save-title-text{
+  padding: 0.5% 0 2% 1%;
+}
+.save-feature-box{
+  text-align: center;
+  padding: 4%;
+}
+.save-btn{
+  margin: 5% 3% 5% 0;
+  color: White;
+  background-color: #C69A75;
+  font-weight: 500;
+}
+.save-btn:hover{
+  background-color: #998469;
+  color: #F1E6D2;
+}
+.save-section-2{
+  width: 100%;
+  height: auto;
+  float: left;
+  border-radius: 20%;
+}
+.save-section-2:hover{
+  opacity: 0.85;
+}
+.save-feature-box-1{
+  padding: 9.5% 4%;
+}
+#save-3{
+  padding: 7% 12%;
+  background-color: #998469;
+}
+.save-feature-box-3{
+  padding: 8.5% 4%;
+}
+.save-feature-box-2{
+  padding: 8.5% 4%;
+}
+.save-section-3{
+  width: 108%;
+  height: auto;
+  border-radius: 20%;
+}
+.save-section-3:hover{
+  opacity: 0.75;
+}
+.save-section-4{
+
+}
+.save-last-btn{
+  margin: 2% 3% 2% 0;
+  color: white;
+  background-color: #C69A75;
+  font-weight: 500;
+}
+.save-last-btn:hover{
+  background-color: #998469;
+  color: #F1E6D2;
+}
+.save-section-6{
+  width: 100%;
+  height: auto;
+  border-radius: 20%;
+}
+.save-section-6:hover{
+  opacity: 0.75;
+}
+.save-icon {
+  width: 35%;
+  margin-bottom: 1rem;
+  color: #2D5871;
+}
+.save-icon:hover{
+  opacity: 0.8;
+}
+
+/* signup */
+#savings-form{
+  padding: 5% 20% 1% 20%;
+}
+.savings-text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: left;
+}
+.savings-text1{
+  text-align: left;
+}
+#savings-form-1{
+  padding: 0% 20% 2% 20%;
+}
+.fa-id-card{
+  margin: 5% 43.5%;
+}
+.fa-house-user{
+  margin: 2% 45%;
+}
+.fa-address-card{
+  margin: 2% 41.5%;
+}
+.fa-check-circle{
+  margin: 2% 41.5%;
+}
+.col-35 {
+ float: left;
+ width: 35%;
+ margin-top: 6px;
+}
+.PAN{
+  margin-left: 15%;
+}
+.submit-2{
+  margin: 3% 30%;
+  padding: 1% 3%;
+}
+.col-65 {
+ float: left;
+ width: 50%;
+ margin-top: 6px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 0.8;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #290001;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #290001;
+  cursor: pointer;
+}
+.save-title-text-2{
+  color: #524C40;
+}
+
+/* RE */
+#RE-form{
+  padding: 5% 29% 1% 29%;
+}
+#RE-form-1{
+  padding: 0% 29% 2% 29%;
+}
+
+.RE1-btn {
+  margin: 2% 12.5%;
+  width: 75%;
+  color: #e8e8e8;
+  background-color: #364F56;
+  font-weight: 500;
+}
+.RE1-btn:hover{
+  background-color: #a7c5eb;
+  color: #0f3057;
+}
